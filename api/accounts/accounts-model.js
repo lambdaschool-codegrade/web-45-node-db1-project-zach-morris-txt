@@ -5,7 +5,7 @@ const db = require('../../data/db-config')
 //Helper Functions
 const getAll = () => {
   // DO YOUR MAGIC
-  return db('accounts').select('id', 'name', 'budget')
+  return db('accounts')
 }
 
 async function getById(id) {

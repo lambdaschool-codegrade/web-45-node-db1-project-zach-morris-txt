@@ -1,3 +1,9 @@
+
+const Account = require('./accounts-model')
+const db = require('../../data/db-config')
+
+
+
 exports.checkAccountPayload = (req, res, next) => {
   // DO YOUR MAGIC
   const error = { status: 400 }
