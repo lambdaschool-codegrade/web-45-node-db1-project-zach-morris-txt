@@ -1,4 +1,4 @@
-//Import; Wired Data
+//Import; Wired DATABASE
 const db = require('../../data/db-config')
 
 
